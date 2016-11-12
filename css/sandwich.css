@@ -3,15 +3,17 @@
     line-height: 130px;
 }
 
+.logo{
+    width: 150px;
+    height: 150px;
+    border-style: double;
+    border-color:black;
+    border-width:5px;
+    position:absolute;
+}
 
 @media screen {
     .logo{
-        width: 150px;
-        height: 150px;
-        border-style: double;
-        border-color:black;
-        border-width:5px;
-        position:absolute;
         left:5px;
     }
 }
@@ -19,12 +21,6 @@
 
 @media (max-width: 768px) {
     .logo{
-        width: 150px;
-        height: 150px;
-        border-style: double;
-        border-color:black;
-        border-width:5px;
-        position:absolute;
         left:calc(50% - 75px);
     }
 }
