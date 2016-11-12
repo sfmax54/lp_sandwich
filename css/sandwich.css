@@ -3,6 +3,27 @@
     line-height: 130px;
 }
 
+@media (max-width: 1000px) {
+    img{
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
 .logo{
     width: 150px;
     height: 150px;
@@ -45,4 +66,8 @@ img{
 
 .list-checkbox{
     min-height: 200px;
+}
+
+.none{
+    margin:unset;
 }
