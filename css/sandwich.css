@@ -1,3 +1,6 @@
+/*-----------------------*\
+        Index
+\*-----------------------*/
 .bloc{
     height: 150px;
     line-height: 130px;
@@ -34,6 +37,7 @@
 
 }
 
+/* media index */ 
 @media screen {
     .logo{
         left:5px;
@@ -82,3 +86,20 @@ img{
 .none{
     margin:unset;
 }
+
+/*-----------------------*\
+        Article
+\*-----------------------*/
+.img_ingredient{
+     max-width: 100%;
+        border: 1px solid #848484;
+}
+
+.description_ingredient{
+    margin-top: 1.5em;
+}
+
+.value_ingredient{
+    margin-top: 1em;
+}
+
