@@ -24,6 +24,25 @@
         left:calc(50% - 75px);
     }
 }
-.container {
+#accueil {
     padding-top: 150px;
+}
+
+.card{
+    padding: 10px;
+}
+
+img{
+   /* padding: 10px;*/
+}
+
+.rubrique{
+    border-style: solid;
+    border-color:black;
+    border-width:2px;
+    margin: 10px;
+}
+
+.list-checkbox{
+    min-height: 200px;
 }
