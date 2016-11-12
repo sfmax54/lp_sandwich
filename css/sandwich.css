@@ -31,20 +31,31 @@
     border-color:black;
     border-width:5px;
     position:absolute;
+
 }
 
 @media screen {
     .logo{
         left:5px;
+        top: 5px
     }
+
+    #accueil {
+    padding-top: 150px;
 }
 
+}
 
 @media (max-width: 768px) {
     .logo{
         left:calc(50% - 75px);
     }
+
+    #accueil {
+    padding-top: 170px;
+    }
 }
+
 #accueil {
     padding-top: 150px;
 }
