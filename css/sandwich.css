@@ -81,6 +81,12 @@
     border-color:black;
     border-width:2px;
     margin: 10px;
+
+}
+
+.tittle{
+    padding-top: 5px;
+    padding-left: 5px;
 }
 
 @media (max-width: 1000px) {
