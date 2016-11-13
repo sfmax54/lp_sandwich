@@ -2,8 +2,7 @@
         Index
 \*-----------------------*/
 .bloc {
-    height: 150px;
-    line-height: 130px;
+    height: 100px !important ;
 }
 
 @media (max-width: 1000px) {
