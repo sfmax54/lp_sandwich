@@ -45,7 +45,7 @@
 \*-----------------------*/
 .img_ingredient{
      max-width: 100%;
-        border: 1px solid #848484;
+     border: 1px solid #848484;
 }
 
 .description_ingredient{
@@ -56,3 +56,21 @@
     margin-top: 1em;
 }
 
+
+@media (max-width: 768px) {
+
+    .img_ingredient{
+     max-height: 100%;
+     border: 1px solid #848484;
+    }
+
+ }
+
+
+/*-----------------------*\
+        edition_cmd
+\*-----------------------*/
+
+.box_edition {
+   border: 1px solid #848484;
+}
