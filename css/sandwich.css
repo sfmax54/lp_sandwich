@@ -2,30 +2,30 @@
         Index
 \*-----------------------*/
 .bloc {
-    height: 150px;
-    line-height: 130px;
+    height: 100px !important ;
 }
 
 @media (max-width: 1000px) {
-    img {
+    img.normalize {
         width: 75px;
         height: 75px;
     }
 }
 
 @media (min-width: 1000px) and (max-width: 1200px) {
-    img {
+    img.normalize{
         width: 125px;
         height: 125px;
     }
 }
 
 @media (min-width: 1200px) {
-    img {
+    img.normalize{
         width: 150px;
         height: 150px;
     }
 }
+
 
 .logo {
     width: 150px;
@@ -134,24 +134,5 @@ img {
     padding-left: 5px;
 }
 
-@media (max-width: 1000px) {
-    img {
-        width: 75px;
-        height: 75px;
-    }
-}
 
-@media (min-width: 1000px) and (max-width: 1200px) {
-    img {
-        width: 125px;
-        height: 125px;
-    }
-}
-
-@media (min-width: 1200px) {
-    img {
-        width: 150px;
-        height: 150px;
-    }
-}
 
