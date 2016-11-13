@@ -121,3 +121,33 @@ img{
 .box_edition {
    border: 1px solid #848484;
 }
+
+/* edition_cmd + recap */
+.rubrique{
+    border-style: solid;
+    border-color:black;
+    border-width:2px;
+    margin: 10px;
+}
+
+@media (max-width: 1000px) {
+    img{
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    img{
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}
+
