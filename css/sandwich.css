@@ -1,43 +1,34 @@
+
+body {
+    background-color: #fdfdfd;
+}
+
 /*-----------------------*\
         Index
 \*-----------------------*/
+.bloc:hover {
+    height: 100px !important;
+    font-size: 1.4em;
+}
+
 .bloc {
-    height: 100px !important ;
+    font-size: 1.2em;
+    height: 60px !important;
 }
-
-@media (max-width: 1000px) {
-    img.normalize {
-        width: 75px;
-        height: 75px;
-    }
-}
-
-@media (min-width: 1000px) and (max-width: 1200px) {
-    img.normalize{
-        width: 125px;
-        height: 125px;
-    }
-}
-
-@media (min-width: 1200px) {
-    img.normalize{
-        width: 150px;
-        height: 150px;
-    }
-}
-
 
 .logo {
     width: 150px;
     height: 150px;
     border-style: double;
-    border-color: black;
+    border-color: #bbbaba;
     border-width: 5px;
     position: absolute;
 
 }
 
+
 /* media index */
+
 @media screen {
     .logo {
         left: 5px;
@@ -61,7 +52,7 @@
 }
 
 #accueil {
-    padding-top: 150px;
+    padding-top: 190px;
 }
 
 .card {
@@ -72,12 +63,6 @@ img {
     /* padding: 10px;*/
 }
 
-.rubrique {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    margin: 10px;
-}
 
 .list-checkbox {
     min-height: 200px;
@@ -122,11 +107,18 @@ img {
 
 /* edition_cmd + recap */
 .rubrique {
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
+    border-style: dashed;
+    border-color: darkgrey;
+    border-width: 1px;
+    background: white;
     margin: 10px;
+}
+.rubrique > .tittle{
+    padding-left: 10px;
+}
 
+.sous-rubrique{
+    border : 1px solid black
 }
 
 .tittle {
@@ -136,3 +128,29 @@ img {
 
 
 
+/*-----------------------*\
+        Media_all_page
+\*-----------------------*/
+
+@media (max-width: 1000px) {
+    img.normalize {
+        width: 75px;
+        height: 75px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+    img.normalize {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+@media (min-width: 1200px) {
+    img.normalize {
+        width: 150px;
+        border-radius: 4%;
+        height: 150px;
+        margin-bottom: 2%;
+    }
+}
